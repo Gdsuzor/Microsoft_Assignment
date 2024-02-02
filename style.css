@@ -1,0 +1,303 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+nav{
+    display: flex;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.logo img{
+    width: 105px;
+} 
+.list-items{
+    justify-content: space-between;
+    display: flex;
+    white-space: nowrap;
+}
+.list-items-one{
+    display: flex;
+}
+.list-items-one ul{
+    margin: 0px 0px;
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+}
+.list-items-one li{
+    margin: 0 10px;
+    font-size: 13px;
+}
+.list-items-one  li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+.list-items-one li a:hover{
+    text-decoration: underline;
+}
+.list-items-two{
+    display: flex;
+    margin-left: 300px;
+
+}
+.list-items-two ul{
+    margin: 0 200px;
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+}
+.list-items-two li{
+    margin: 0 10px;
+    font-size: 13px;
+}
+.list-items-two li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+.list-items-two li a:hover{
+    text-decoration: underline;
+}
+.list-items-two li img{
+    width: 22px;
+}
+.section-one{
+    background-image: url(img/main-banner-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 550px;
+    width: 100%;
+}
+.section-one-text{
+    padding-top: 150px;
+    margin: 0 150px;
+    color: white;
+    max-width: 400px;
+}
+.section-one-text h2{
+    font-size: 30px;
+}
+.section-one-text p{
+    padding-top: 20px 0px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.section-one-text button{
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-one-text button:hover{
+    background-color: #00589b;
+    box-shadow: 1px 1px 1px 1px solid grey; 
+}
+.section-one-text p a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-top: 150px;
+    margin: 0px 70px;
+    
+}
+.section-two-one{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-one img{
+    width: 270px;
+}
+.section-two-one h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.section-two-one p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.section-two-one h5{
+    padding-top: 10px;
+}
+.section-two-one span a{
+    text-decoration: none;
+    color: #0067b8;
+}
+.section-two-two{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-two img{
+    width: 250px;
+}
+.section-two-two h3{
+    padding-top: 5px;
+}
+.section-two-two p{
+    padding-top: 10px;
+}
+.section-two-two span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-two-three{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-three img{
+    width: 250px;
+}
+.section-two-three h3{
+    padding-top: 5px;
+}
+.section-two-three p{
+    padding-top: 10px;
+}
+.section-two-three span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-two-four{
+    margin: 0 10px;
+
+}
+.section-two-four img{
+    width: 250px;
+}
+.section-two-four h3{
+    padding-top: 5px;
+}
+.section-two-four p{
+    padding-top: 10px;
+}
+.section-two-four span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-three{
+    background-image: url(img/outlook.webp);
+    background-size: contain;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    margin: 10px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.section-three-text{
+    margin: 0 180px;
+    padding-top: 180px;
+}
+.section-three h2{
+    font-size: 30px;
+}
+.section-three-text p{
+    margin: 20px 0px;
+    
+}
+.section-three-text button{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.section-three-text button:hover{
+    background-color: #00589b;
+    box-shadow: 1px 1px 1px 1px solid grey;
+}
+.section-four{
+    padding-top: 80px;
+    display: flex;
+    margin: 0 80px;
+}
+.section-four img{
+    width: 35px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.section-four p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.footer-list-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    margin-top: 100px;
+    max-width: 900px;
+
+}
+.footer-list-item-unit{
+    display: block;
+    float: left;
+    list-style: none;
+    
+}
+.footer-list-items ul{
+    margin: 10px;
+}
+.footer-list-items li{
+    list-style: none;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    color: #616161;
+}
+.footer-list-items li:hover{
+    text-decoration: underline;
+}
+.footer-list-items .about{
+    font-size: 13px;
+}
+.about{
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    color: #616161;
+}
+.about:hover{
+    text-decoration: none;
+}
